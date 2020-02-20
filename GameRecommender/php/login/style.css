@@ -1,0 +1,50 @@
+html,body{
+	height: 100%;
+	width: 100%;
+}
+#first {
+	background: url(img/pool.jpg) no-repeat center center fixed;
+	display: table;
+	height:100%;
+	position:relative;
+	width:100%;
+	background-size:cover;
+}
+.text{
+	display: table-cell;
+	text-align:center;
+	vertical-align:middle;
+	color: white;
+}
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+  .star{
+          color: goldenrod;
+          font-size: 2.0rem;
+          padding: 0 1rem; /* space out the stars */
+        }
+        .star::before{
+          content: '\2606';    /* star outline */
+          cursor: pointer;
+        }
+        .star.rated::before{
+          /* the style for a selected star */
+          content: '\2605';  /* filled star */
+        }
+        
+        .stars{
+            counter-reset: rateme 0;   
+            font-size: 2.0rem;
+            font-weight: 900;
+        }
+        .star.rated{
+            counter-increment: rateme 1;
+        }
+        .stars::after{
+            content: counter(rateme) '/5';
+        }

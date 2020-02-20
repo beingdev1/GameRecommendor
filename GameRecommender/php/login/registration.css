@@ -1,0 +1,65 @@
+body{
+    padding:0;
+    margin:0;
+}
+#registration{
+	border: 1px solid #ddd;
+	margin:40px 0;
+	box-shadow:5px 10px 10px 10px #ddd;
+}
+#registration .col-md-4{
+	padding:40px 20px;
+}
+#registration .form-control{
+	background:none;
+	border:none;
+	outline:none;
+	border-bottom:1px solid #ddd;
+	padding:0;
+	font-size:18px;
+}
+#registration lable{
+	font-size:16px ;
+
+}
+.multiselect{
+    padding-top:5px;
+    padding-bottom:10px
+    width:200px
+}
+.selectBox{
+    position:relative;
+}
+.selectBox select{
+    width:100%;
+    font-weight:bold;
+}
+.overselect{
+    position:absolute;
+    left:0; right:0; top:0; bottom:0;
+}
+#checkboxes{
+    display:none;
+    border:1px#dadada solid;
+}
+#checkboxes lable{
+    display:block;
+}
+#checkboxes label:hover{
+    background-color:#1e90ff;
+}
+#registration .btn{
+	background-color:grey;
+	width:160px;
+	border-radius:50px;
+	height:50px;
+    margin-top: 40%;
+
+}
+
+#registration .col-md-7{
+	background-image:url(img/skull.jpg);
+	background-size:cover;
+	background-position:right;
+
+}

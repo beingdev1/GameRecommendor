@@ -1,0 +1,45 @@
+body{
+	font-family:Sans-serif;
+	font-size:50px;
+	line-height:1.5;
+	padding:0;
+	margin:0;
+	background-color:grey;
+}
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+header{
+	background:white;
+	color:white;
+	padding-top:10px;
+	padding-bottom:10px;
+	border:solid;
+	text-transform:uppercase;
+}
+header a{
+	color:white;
+	text-decoration:none;
+	font-size:16px;
+}
+header ul{
+	margin:0;
+	padding:0;
+}
+header li{
+	float:left;
+	display:inline;
+	padding:0px 20px 0px 20px;
+}
+header #branding{
+	float:left;
+}
+header #branding h1{
+	margin:0;
+}
+header nav{
+	float:right;
+	margin-top:10px;
+}
